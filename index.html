@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica Poo</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <section id="students">
+      <h2>Estudiantes</h2>
+      <ul id="student-list"></ul>
+      <form id="student-form">
+        <label for="student-name">Nombre:</label>
+        <input type="text" id="student-name" required />
+        <label for="student-age">Edad:</label>
+        <input type="number" id="student-age" required />
+        <label for="student-grade">Grado:</label>
+        <input type="text" id="student-grade" required />
+        <button type="submit">Agregar Estudiante</button>
+      </form>
+    </section>
+
+    <section id="teachers">
+      <h2>Profesores</h2>
+      <ul id="teacher-list"></ul>
+      <form id="teacher-form">
+        <label for="teacher-name">Nombre:</label>
+        <input type="text" id="teacher-name" required />
+        <label for="teacher-age">Edad:</label>
+        <input type="number" id="teacher-age" required />
+        <label for="teacher-subject">Asignatura:</label>
+        <input type="text" id="teacher-subject" required />
+        <button type="submit">Agregar Profesor</button>
+      </form>
+    </section>
+
+    <section id="subject">
+      <h2>Asignaturas</h2>
+      <ul id="subject-list"></ul>
+      <form id="subject-form">
+        <label for="subject-name">Nombre:</label>
+        <input type="text" id="subject-name" required />
+        <label for="subject-code">Codigo:</label>
+        <input type="number" id="subject-code" required />
+        <button type="submit">Agrear Asignatura</button>
+      </form>
+    </section>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
